@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo.css">
+    <title>Desafío entregable 1</title>
+</head>
+<body>
+    <!--Logo y menú con opciones a la izquierda, esto se repite en todas las páginas-->
+    <header>
+        <img src="fotos/Logo.jpg" alt="Logo cerveza ERSINGER">
+        <ul class="menu">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="Fiestas.html">FIESTAS</a></li>
+            <li><a href="Productos.html">PRODUCTOS</a></li>
+            <li><a href="Puntos de venta.html">PUNTOS DE VENTA</a></li>
+            <li><a href="Fábrica.html">FÁBRICA</a></li>
+            <li><a href="Tienda.html">TIENDA</a></li>
+            <li><a href="Contacto.html">CONTACTO</a></li>
+        </ul>
+
+    </header>
+    <!--Cierre de logo y menú desplegable, esto se repite en todas las páginas-->
+    <!--Cuerpo de la página con fotos de los productos-->
+    <section>
+        <img src="fotos/Tienda.JPG" alt="Foto de Tienda" width="400">
+    </section>
+    <!--Empieza el formulario para compra de productos-->
+    <section>
+        <h2>Realizá tu pedido</h2>
+    <form action="">
+        <fieldset>
+            <legend><h2>Formulario de compra</h2></legend>
+            <div>
+            <label for="Nombre">Nombre y Apellido*</label>
+            <input type="text" name="Nombre" required>
+            </div><br>
+            <div>
+                <label for="Telefono">Teléfono*</label>
+                <input type="number" name="Telefono" required>
+            </div><br>
+            <div>
+                <label for="Direccion">Dirección*</label>
+                <input type="text" name="Direccion" required>
+            </div><br>
+            <div>
+                <label for="Sabor">Sabor</label>
+                <select name="Sabor" id="">
+                    <option value="Honey">Honey</option>
+                    <option value="IPA">IPA</option>
+                    <option value="Rubia">Rubia</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="Tamaño">Selecciona el tamaño:</label>
+                <input type="radio" name="Tamaño" value="Lata">Lata x 473 cc
+                <input type="radio" name="Tamaño" value="Litro">Litro
+            </div><br>
+            <input type="submit" value="Enviar datos">
+            <input type="reset" value="Borrar datos">
+        </fieldset>
+    </form>
+    </section>
+        <!--Fin del cuerpo de la página, comienza el footer-->
+    <hr>
+    <footer>
+        <img src="fotos/Logo.jpg" alt="Logo cerveza ERSINGER" width="60">
+        <ul class="pie">
+            <li>RRSS</li>
+            <li><a href="Contacto.html">CONTACTO</a></li>
+        </ul>
+    </footer>
+
+    
+</body>
+</html>

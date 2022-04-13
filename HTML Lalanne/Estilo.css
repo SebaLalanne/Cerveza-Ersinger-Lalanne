@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    font-family:'Times New Roman', Times, serif;
+}
+.menu{
+    background-color: rgb(173, 73, 73);
+    list-style-type: none;
+    width: 90%;
+    margin: 20 px auto;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.menu li a{
+text-decoration: none;
+color: white;
+display: inline-block;
+padding: 10px;
+}
+.menu li a:hover{
+    background-color: rgb(131, 37, 37);
+    color: white;
+    border-radius: 10%;
+}
+.pie{
+    list-style-type: none;
+    width: 90%;
+    margin: 20px;
+    text-align: center;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pie li{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    color: lightblue;
+
+}
+.pie li a{
+    text-decoration: none;
+    color: lightblue;
+}
